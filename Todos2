@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            My Todo App
+        </title>
+    </head>
+    <body>
+        <button>Press me</button>
+        <script>
+            let todo1 = 'Get groceries';
+            let todo2 = 'Wash car';
+            let todo3 = 'Make dinner';
+            let todo4 = 'Do lunch';
+
+            let todos = ['Get groceries', 'Wash car', 'Make dinner'];
+            todos.push('another todo');
+
+            todos.pop();
+
+            console.log('hello'.toUpperCase());
+
+            function addTodo(todoTitle) {
+            let element = document.createElement('div');
+            element.innerText = todoTitle;
+            document.body.appendChild(element);
+            }
+
+            addTodo(todo1);
+            addTodo(todo2);
+            addTodo(todo3);
+            addTodo(todo4);
+        </script>
+    </body>
+</htm
+
